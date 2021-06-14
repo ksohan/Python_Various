@@ -9,8 +9,8 @@ Created on Tue Jun  15 02:51:55 2021
 from shutil import move
 import os
 
-src_folder = "D:\\RF\\DroneRF-master\\data\\"
-dest_folder = "D:\\RF\\DroneRF-master\\data2\\"
+src_folder = "D:\\data\\"
+dest_folder = "D:\\data2\\"
 files = os.listdir(src_folder)
 for file in files:
     move(src_folder + file, dest_folder + file)
