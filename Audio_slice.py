@@ -1,3 +1,8 @@
+# pip install pydub
+# Also make sure ffmpeg is installed
+# For ubuntu use "sudo apt install ffmpeg"
+# For windows go to "https://www.ffmpeg.org/download.html" link download ffmpeg and update your environment path with ffmpeg/bin
+
 from pydub import AudioSegment
 from pydub.utils import make_chunks
 
