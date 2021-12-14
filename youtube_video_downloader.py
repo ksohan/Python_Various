@@ -1,3 +1,6 @@
+# pip install pytube
+# brew install pytube
+
 from pytube import YouTube
 from pytube.cli import on_progress
 
